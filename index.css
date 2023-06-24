@@ -1,0 +1,97 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 375px;
+    user-select: none;
+    background-color: #252525;
+    background-image: url("https://cdn.britannica.com/78/43678-050-F4DC8D93/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: brightness(90%) contrast(130%);
+}
+
+body {
+    border: 5px solid black;
+    border-radius: 18px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 2px solid lightgray;
+    padding: 0 10px;
+}
+
+#logo {
+    height: 45px;
+    margin: 5px 0;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 7px 10px;
+    height: 45px;
+}
+
+p {
+    font-size: 13px;
+    margin: 0 15px;
+    line-height: 18px;
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+.container {
+    display: inline-block;
+    text-align: left;
+}
+
+.post {
+    width: 375px;
+}
+
+.post:active {
+    transform: scale(99%);
+    border-radius: 5px;
+    box-shadow: -1px -1px 10px black;
+}
+
+.interaction-btn {
+    width: 23px;
+    padding: 10px 0 10px 10px;
+}
+
+.interaction-btn:hover, .interaction-btn:active {
+    opacity: 80%;
+    transition: 250ms;
+    transform: scale(98%);
+    filter: invert(9%) sepia(85%) saturate(5877%) hue-rotate(358deg) brightness(88%) contrast(111%);
+}
+
+.likes, .user-handle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.user-handle, .caption {
+    padding-bottom: 20px;
+}
+
+
+

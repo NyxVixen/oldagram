@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="images/logo.png">
+            <img class="user-avatar" src="images/user-avatar.png">
+        </header>
+        <section>
+            <div class="container">
+                <div class="user-info">
+                    <img class="user-avatar" src="images/avatar-vangogh.jpg">
+                    <p><span class="user-name">Vincent Van Gogh</span><br>
+                    Zunder, Netherlands</p>
+                </div>
+                <div class="interactions">
+                    <img class="post" ondblclick="likePost()" src="images/post-vangogh.jpg">
+                    <img class="interaction-btn" id="liked-el" ondblclick="likePost()" src="images/icon-heart.png">
+                    <img class="interaction-btn" src="images/icon-comment.png">
+                    <img class="interaction-btn" src="images/icon-dm.png">
+                </div>
+                <div class="post-details">
+                    <p class="likes" id="total-likes">21,492 likes</p>
+                    <p class="caption"><span class="user-handle">vincey1853</span> just took a few mushrooms lol</p>
+                </div>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
